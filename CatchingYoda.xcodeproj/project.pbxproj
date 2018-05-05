@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96EF6443209E1866002100D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EF6442209E1866002100D2 /* AppDelegate.swift */; };
+		96EF6445209E1866002100D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EF6444209E1866002100D2 /* ViewController.swift */; };
+		96EF6448209E1866002100D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EF6446209E1866002100D2 /* Main.storyboard */; };
+		96EF644A209E1868002100D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EF6449209E1868002100D2 /* Assets.xcassets */; };
+		96EF644D209E1868002100D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EF644B209E1868002100D2 /* LaunchScreen.storyboard */; };
+		96EF6455209E1994002100D2 /* Master_Yoda.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF6454209E1993002100D2 /* Master_Yoda.png */; };
+		96EF6457209E1999002100D2 /* Yoda.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF6456209E1999002100D2 /* Yoda.png */; };
+		96EF6459209E1A12002100D2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF6458209E1A12002100D2 /* background.png */; };
+		96EF645B209E1AEE002100D2 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF645A209E1AEE002100D2 /* play.png */; };
+		96EF645D209E1E4E002100D2 /* yoda_yeni.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF645C209E1E4D002100D2 /* yoda_yeni.png */; };
+		96EF645F209E1F02002100D2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EF645E209E1F02002100D2 /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96EF643F209E1866002100D2 /* CatchingYoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchingYoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EF6442209E1866002100D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96EF6444209E1866002100D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96EF6447209E1866002100D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96EF6449209E1868002100D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96EF644C209E1868002100D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96EF644E209E1868002100D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EF6454209E1993002100D2 /* Master_Yoda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Master_Yoda.png; sourceTree = "<group>"; };
+		96EF6456209E1999002100D2 /* Yoda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yoda.png; sourceTree = "<group>"; };
+		96EF6458209E1A12002100D2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		96EF645A209E1AEE002100D2 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		96EF645C209E1E4D002100D2 /* yoda_yeni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoda_yeni.png; sourceTree = "<group>"; };
+		96EF645E209E1F02002100D2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96EF643C209E1866002100D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96EF6436209E1866002100D2 = {
+			isa = PBXGroup;
+			children = (
+				96EF6441209E1866002100D2 /* CatchingYoda */,
+				96EF6440209E1866002100D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96EF6440209E1866002100D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96EF643F209E1866002100D2 /* CatchingYoda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96EF6441209E1866002100D2 /* CatchingYoda */ = {
+			isa = PBXGroup;
+			children = (
+				96EF6442209E1866002100D2 /* AppDelegate.swift */,
+				96EF6454209E1993002100D2 /* Master_Yoda.png */,
+				96EF645C209E1E4D002100D2 /* yoda_yeni.png */,
+				96EF645A209E1AEE002100D2 /* play.png */,
+				96EF6444209E1866002100D2 /* ViewController.swift */,
+				96EF6456209E1999002100D2 /* Yoda.png */,
+				96EF6458209E1A12002100D2 /* background.png */,
+				96EF6446209E1866002100D2 /* Main.storyboard */,
+				96EF6449209E1868002100D2 /* Assets.xcassets */,
+				96EF644B209E1868002100D2 /* LaunchScreen.storyboard */,
+				96EF644E209E1868002100D2 /* Info.plist */,
+				96EF645E209E1F02002100D2 /* ViewController2.swift */,
+			);
+			path = CatchingYoda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96EF643E209E1866002100D2 /* CatchingYoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EF6451209E1868002100D2 /* Build configuration list for PBXNativeTarget "CatchingYoda" */;
+			buildPhases = (
+				96EF643B209E1866002100D2 /* Sources */,
+				96EF643C209E1866002100D2 /* Frameworks */,
+				96EF643D209E1866002100D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchingYoda;
+			productName = CatchingYoda;
+			productReference = 96EF643F209E1866002100D2 /* CatchingYoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96EF6437209E1866002100D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					96EF643E209E1866002100D2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 96EF643A209E1866002100D2 /* Build configuration list for PBXProject "CatchingYoda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96EF6436209E1866002100D2;
+			productRefGroup = 96EF6440209E1866002100D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96EF643E209E1866002100D2 /* CatchingYoda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96EF643D209E1866002100D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EF645B209E1AEE002100D2 /* play.png in Resources */,
+				96EF645D209E1E4E002100D2 /* yoda_yeni.png in Resources */,
+				96EF644D209E1868002100D2 /* LaunchScreen.storyboard in Resources */,
+				96EF6459209E1A12002100D2 /* background.png in Resources */,
+				96EF644A209E1868002100D2 /* Assets.xcassets in Resources */,
+				96EF6457209E1999002100D2 /* Yoda.png in Resources */,
+				96EF6455209E1994002100D2 /* Master_Yoda.png in Resources */,
+				96EF6448209E1866002100D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96EF643B209E1866002100D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EF6445209E1866002100D2 /* ViewController.swift in Sources */,
+				96EF6443209E1866002100D2 /* AppDelegate.swift in Sources */,
+				96EF645F209E1F02002100D2 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96EF6446209E1866002100D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EF6447209E1866002100D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96EF644B209E1868002100D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EF644C209E1868002100D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96EF644F209E1868002100D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96EF6450209E1868002100D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96EF6452209E1868002100D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchingYoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kursatcoskun.CatchingYoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96EF6453209E1868002100D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CatchingYoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kursatcoskun.CatchingYoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96EF643A209E1866002100D2 /* Build configuration list for PBXProject "CatchingYoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EF644F209E1868002100D2 /* Debug */,
+				96EF6450209E1868002100D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96EF6451209E1868002100D2 /* Build configuration list for PBXNativeTarget "CatchingYoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EF6452209E1868002100D2 /* Debug */,
+				96EF6453209E1868002100D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96EF6437209E1866002100D2 /* Project object */;
+}
